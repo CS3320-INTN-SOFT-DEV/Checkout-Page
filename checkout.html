@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <Title>Checkout</Title>
 </head>
-<body class="bg-white container">
+<body class="bg-light container">
     <div class="row">
         <div class="col pt-3 pb-2">
             <p class="brandname">Company Name</p>
@@ -52,25 +52,25 @@
             </li>
         </ul>
 </div>
-    <div class="col-md-8 order-md-1 border pb-4">
-        <h4 class="d-flex justify-content-between align-items center pt-1 pb-1">Payment</h4> 
-        <form class="font" action="#">  
-        Choose your payment method:<br>    
-            <select class="font">
+    <div class="col-md-8 order-md-1 pb-4">
+        <h4 class="d-flex justify-content-between align-items center pt-1 pb-1 pl-2">Payment</h4> 
+        <form class="font border bg-white" action="#">  
+        Choose your payment method<br>    
+            <select class="font form-control">
                 <option value="Visa">Visa</option>
                 <option value="Mastercard">Mastercard</option>
                 <option value="American Express">American Express</option>
-            </select><br><br>
-            Card Number: <br>
-            <input class="font"type="text" name="cardnumber" placeholder="1111-2222-3333-4444"><br><br>
-            Expiration Date: <br>
-            <input class="font" type="text" name="expdate" placeholder="111"><br><br>
+            </select><br>
+            Card Number <br>
+            <input class="font form-control"type="text" name="cardnumber" placeholder="XXXX-XXXX-XXXX-XXXX"><br>
+            Expiration Date <br>
+            <input class="font form-control" type="text" name="expdate" placeholder="XXX"><br>
             <input class="font" type="checkbox"> I agree and authorize the amount to be charged to my credit card.
-        <br><br><input class="font btn btn-warning btn-block float-right" type="submit" value="Submit"> 
+        <br><br><input class="font btn btn-warning btn-block" type="submit" value="Submit"> 
         </form>
     </div>
     </div>
-    <footer class="my-5 text-muted text-center text-smaller bg-light">
+    <footer class="my-5 text-muted text-center text-smaller">
         <p class="mb-1"> Copyright 2019 Company Name</p>
     </footer> 
     </body>
